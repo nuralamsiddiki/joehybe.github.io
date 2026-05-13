@@ -1,57 +1,100 @@
 <!DOCTYPE html>
 <html lang="bn">
 <head>
-<meta charset="UTF-8">
-<title>শেখ নুর আলম সিদ্দিকী</title>
-<style>
-body {
-  font-family: Arial, sans-serif;
-  background: linear-gradient(135deg, #667eea, #764ba2);
-  margin: 0;
-  padding: 20px;
-  min-height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.card {
-  background: white;
-  border-radius: 20px;
-  padding: 40px 30px;
-  max-width: 420px;
-  width: 100%;
-  box-shadow: 0 10px 30px rgba(0,0,0,.2);
-  text-align: center;
-}
-h1 {
-  font-size: 28px;
-  margin: 15px 0 10px;
-  color: #222;
-}
-p {
-  color: #666;
-  margin: 0 0 20px;
-}
-.menu a {
-  color: #667eea;
-  text-decoration: none;
-  font-weight: bold;
-  margin: 0 10px;
-}
-.menu a:hover {
-  text-decoration: underline;
-}
-</style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>শেখ নুর আলম সিদ্দিকী</title>
+  <style>
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #667eea, #764ba2);
+      margin: 0; padding: 20px;
+      min-height: 100vh;
+      display: flex; align-items: center; justify-content: center;
+    }
+    .card {
+      background: white; border-radius: 20px; padding: 30px 20px;
+      max-width: 450px; width: 100%;
+      box-shadow: 0 10px 30px rgba(0,0,0,.2);
+    }
+    h1 { font-size: 24px; text-align: center; margin: 0 0 10px; color: #222; }
+    .subtitle { text-align: center; color: #666; margin-bottom: 20px; }
+    .menu a {
+      display: block; margin: 10px 0; padding: 12px;
+      background: #f5f5f5; color: #667eea; text-decoration: none;
+      font-weight: bold; border-radius: 10px; text-align: center;
+    }
+    .menu a:hover { background: #667eea; color: white; }
+    .section { margin-top: 30px; padding-top: 20px; border-top: 1px solid #eee; }
+    .section h2 { color: #667eea; margin-bottom: 15px; font-size: 20px; }
+    .contact-item {
+      background: #f8f8f8; padding: 15px; margin: 10px 0;
+      border-radius: 10px; display: flex; align-items: center; gap: 10px;
+    }
+    .contact-item a {
+      color: #333; text-decoration: none; flex: 1;
+    }
+  </style>
 </head>
 <body>
-<div class="card">
-<h1>শেখ নুর আলম সিদ্দিকী</h1>
-<p>স্বাগতম আমার ওয়েবসাইটে!</p>
-<div class="menu">
-<a href="about.html">About Us</a>
-<a href="contact.html">Contact</a>
-<a href="privacy.html">Privacy</a>
-</div>
-</div>
+  <div class="card">
+    <h1>শেখ নুর আলম সিদ্দিকী</h1>
+    <p class="subtitle">স্বাগতম আমার ওয়েবসাইটে!</p>
+    
+    <div class="menu">
+      <a href="#about">About Us</a>
+      <a href="#contact">Contact</a>
+      <a href="#privacy">Privacy</a>
+    </div>
+
+    <div class="section" id="about">
+      <h2>About Us</h2>
+      <div class="contact-item">
+        <span>📍</span>
+        <div>
+          গ্রাম: পাটাবুকা (শেখ বাড়ি)<br>
+          পোস্ট: বিন্নাটি<br>
+          ইউনিয়ন: বিন্নাটি<br>
+          থানা: কিশোরগঞ্জ<br>
+          জেলা: কিশোরগঞ্জ
+        </div>
+      </div>
+    </div>
+
+    <div class="section" id="contact">
+      <h2>Contact</h2>
+      
+      <div class="contact-item">
+        <span>📧</span>
+        <a href="mailto:alam313210@gmail.com">Email: alam313210@gmail.com</a>
+      </div>
+
+      <div class="contact-item">
+        <span>📞</span>
+        <a href="tel:01725313210">Phone: 01725-313210</a>
+      </div>
+
+      <div class="contact-item">
+        <span>💬</span>
+        <a href="https://wa.me/8801725313210" target="_blank">WhatsApp: Chat Now</a>
+      </div>
+
+      <div class="contact-item">
+        <span>👤</span>
+        <a href="https://www.facebook.com/sheikhnuralamsiddiki" target="_blank">Facebook: Profile</a>
+      </div>
+
+      <div class="contact-item">
+        <span>📄</span>
+        <a href="https://www.facebook.com/share/1Cng3gzFKi/" target="_blank">Facebook: Ten Top BD Page</a>
+      </div>
+    </div>
+
+    <div class="section" id="privacy">
+      <h2>Privacy Policy</h2>
+      <p>এখানে তুমি তোমার প্রাইভেসি পলিসি লিখবে।</p>
+    </div>
+  </div>
 </body>
 </html>
